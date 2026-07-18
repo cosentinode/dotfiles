@@ -1,3 +1,6 @@
+# Shell
+command = direct:/opt/homebrew/bin/tmux new-session -A -s main
+
 # Font
 font-family = JetBrainsMono Nerd Font
 font-size = 22
@@ -30,8 +33,8 @@ macos-option-as-alt = left
 macos-titlebar-style = hidden
 
 # Keybindings
-keybind = super+shift+h=goto_split:left
-keybind = super+shift+l=goto_split:right
+keybind = super+shift+h=text:\x00h
+keybind = super+shift+l=text:\x00l
 keybind = super+shift+arrow_left=text:\x1b[1;3D
 keybind = super+shift+arrow_right=text:\x1b[1;3C
 keybind = super+shift+t=text:\x00c
