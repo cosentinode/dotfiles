@@ -1,14 +1,15 @@
 # Font
 font-family = JetBrainsMono Nerd Font
-font-size = 12
+font-size = 22
 
 # Colors — OneDark Pro
 background = 121212
 background-opacity = 0.9
 
-# Padding (kitty: window_padding_width 18 10 10 10)
+# Padding
 window-padding-x = 10
-window-padding-y = 18
+window-padding-y = 10,2
+window-padding-balance = true
 
 # Cursor
 cursor-style = block
@@ -20,10 +21,18 @@ custom-shader = shaders/cursor_smear_fade.glsl
 # Scrollback
 scrollback-limit = 10000
 
+# Splits
+split-divider-color = #282C34
+
 # macOS
 macos-option-as-alt = left
+macos-titlebar-style = hidden
 
 # Keybindings
-keybind = super+shift+enter=new_split:right
 keybind = super+shift+h=goto_split:left
 keybind = super+shift+l=goto_split:right
+keybind = super+shift+arrow_left=text:\x1b[1;3D
+keybind = super+shift+arrow_right=text:\x1b[1;3C
+keybind = super+shift+t=text:\x00c
+keybind = super+shift+backspace=text:\x00x
+keybind = super+shift+enter=text:\x00|
