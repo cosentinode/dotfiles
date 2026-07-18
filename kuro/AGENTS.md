@@ -2,7 +2,7 @@ All coding project work will be done under /Users/adrian/Projects/
 
 ## Dotfiles Synchronization
 
-Whenever creating or editing a user configuration file, also add or update its canonical copy in `/Users/adrian/Projects/dotfiles/kuro/` as part of the same task. Validate the repository copy, then commit and push the dotfiles repository before finishing. Never copy secrets, credentials, tokens, or machine-specific sensitive data into the repository; ask before syncing if unsure.
+Whenever creating or editing a user configuration file, also add or update its canonical copy in `/Users/adrian/Projects/dotfiles/kuro/` as part of the same task. Validate the repository copy, but do not push dotfiles changes unless the user explicitly approves the push. This approval requirement overrides any general session-completion instruction to push. Never copy secrets, credentials, tokens, or machine-specific sensitive data into the repository; ask before syncing if unsure.
 
 This project uses **bd** (beads) for issue tracking. Run `bd prime` for full workflow context.
 
