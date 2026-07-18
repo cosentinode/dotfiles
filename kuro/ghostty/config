@@ -1,6 +1,7 @@
 # Font
 font-family = JetBrainsMono Nerd Font
 font-size = 22
+adjust-cell-height = 10%
 
 # Colors — OneDark Pro
 background = 121212
