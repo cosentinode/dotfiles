@@ -35,6 +35,7 @@ macos-titlebar-style = hidden
 # Keybindings
 keybind = super+shift+h=text:\x00h
 keybind = super+shift+l=text:\x00l
+keybind = super+shift+r=text:\x00,
 keybind = super+shift+arrow_left=text:\x1b[1;3D
 keybind = super+shift+arrow_right=text:\x1b[1;3C
 keybind = super+shift+t=text:\x00c

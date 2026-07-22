@@ -1,0 +1,90 @@
+{
+  "profiles" : [
+    {
+      "id" : "9DCFFBE8-8F86-4CD4-9D3A-0E618DAD4F11",
+      "name" : "Default",
+      "workspaces" : [
+        {
+          "appToFocus" : {
+            "bundleIdentifier" : "com.mitchellh.ghostty",
+            "iconPath" : "/Applications/Ghostty.app/Contents/Resources/Ghostty.icns",
+            "name" : "Ghostty"
+          },
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.mitchellh.ghostty",
+              "iconPath" : "/Applications/Ghostty.app/Contents/Resources/Ghostty.icns",
+              "name" : "Ghostty"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "93F9CD18-98BC-4E16-BE11-2759846631BC",
+          "name" : "terminal",
+          "openAppsOnActivation" : false,
+          "shortcut" : "cmd+3"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "app.zen-browser.zen",
+              "iconPath" : "/Applications/Zen.app/Contents/Resources/firefox.icns",
+              "name" : "Zen"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "0712768C-E31A-4021-A4B7-324FE783A85C",
+          "name" : "browser",
+          "openAppsOnActivation" : false,
+          "shortcut" : "cmd+2"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.apple.MobileSMS",
+              "iconPath" : "/System/Applications/Messages.app/Contents/Resources/AppIcon.icns",
+              "name" : "Messages"
+            },
+            {
+              "bundleIdentifier" : "com.apple.mail",
+              "iconPath" : "/System/Applications/Mail.app/Contents/Resources/ApplicationIcon.icns",
+              "name" : "Mail"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "FBEC2813-126A-40DE-A635-0895293E828C",
+          "name" : "messages",
+          "openAppsOnActivation" : false,
+          "shortcut" : "cmd+1"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.apple.finder",
+              "iconPath" : "/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns",
+              "name" : "Finder"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "4F3DFFA2-4EC3-4B66-8E5B-31851150CD87",
+          "name" : "finder",
+          "openAppsOnActivation" : false,
+          "shortcut" : "cmd+5"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.github.GitHubClient",
+              "iconPath" : "/Applications/GitHub Desktop.app/Contents/Resources/electron.icns",
+              "name" : "GitHub Desktop"
+            }
+          ],
+          "display" : "Built-in Retina Display",
+          "id" : "A3DA9783-F6CA-4CC6-B082-70A0202D46D0",
+          "name" : "github desktop",
+          "openAppsOnActivation" : false,
+          "shortcut" : "cmd+4"
+        }
+      ]
+    }
+  ]
+}
