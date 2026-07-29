@@ -1,0 +1,12 @@
+{
+  "global_shortcuts": {
+    "toggle": "command+space"
+  },
+  "providers": {
+    "applications": {
+      "preferences": {
+        "defaultAction": "focus"
+      }
+    }
+  }
+}

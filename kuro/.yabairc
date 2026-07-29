@@ -9,6 +9,9 @@ yabai -m config right_padding 14
 yabai -m config mouse_follows_focus off
 yabai -m config focus_follows_mouse autofocus
 
+# Follow application launchers to an existing window on another Space.
+defaults write NSGlobalDomain AppleSpacesSwitchOnActivate -bool true
+
 yabai -m config window_origin_display focused
 yabai -m config window_zoom_persist on
 yabai -m config window_animation_duration 0.0
@@ -16,3 +19,6 @@ yabai -m config window_animation_duration 0.0
 # macOS exposes Ghostty's native tabs as windows; rebuild the BSP tree when tabs change.
 yabai -m signal --add app='^Ghostty$' event=window_created action='yabai -m space --layout bsp'
 yabai -m signal --add app='^Ghostty$' event=window_destroyed action='yabai -m space --layout bsp'
+
+# Follow Vicinae app results to their existing yabai window.
+yabai -m signal --add label='focus-vicinae-application' event=application_front_switched action="$HOME/.config/yabai/focus-vicinae-application.sh \"\$YABAI_PROCESS_ID\""
