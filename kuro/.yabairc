@@ -21,4 +21,5 @@ yabai -m signal --add app='^Ghostty$' event=window_created action='yabai -m spac
 yabai -m signal --add app='^Ghostty$' event=window_destroyed action='yabai -m space --layout bsp'
 
 # Follow Vicinae app results to their existing yabai window.
+yabai -m signal --add label='mark-space-change' event=space_changed action="$HOME/.config/yabai/mark-space-change.sh"
 yabai -m signal --add label='focus-vicinae-application' event=application_front_switched action="$HOME/.config/yabai/focus-vicinae-application.sh \"\$YABAI_PROCESS_ID\""
